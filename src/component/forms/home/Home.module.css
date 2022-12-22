@@ -1,0 +1,55 @@
+.heading1{
+    width: 255px;
+    color: rgba(51,51,51,1);
+    position: absolute;
+    top: 170px;
+    left: 24px;
+    font-family: Epilogue;
+    font-weight: Bold;
+    font-size: 28px;
+    opacity: 1;
+    text-align: left;
+  }
+  .heading2{
+    width: 39px;
+    color: rgba(51,51,51,1);
+    position: absolute;
+    top: 50px;
+    left: 34px;
+    font-family: Epilogue;
+    font-weight: Bold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .new{
+    width: 328px;
+    height: 56px;
+    background: rgba(242,201,76,1);
+    opacity: 1;
+    position: relative;
+    top: 400px;
+    left: 20px;
+    cursor: pointer;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.1599999964237213);
+    overflow: hidden;
+    
+  }
+  button.text{
+    width: 39px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 21px;
+    left: 145px;
+    font-family: Epilogue;
+    font-weight: Bold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: center;
+  }
+  

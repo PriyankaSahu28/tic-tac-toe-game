@@ -1,0 +1,148 @@
+body {
+    font-size: 14px;
+  }
+  body{
+    width: 360px;
+    height: 1020px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  
+  .name {
+    color: #fff;
+  }
+  .heading1{
+    width: 255px;
+    color: rgba(16, 14, 14, 0.971);
+    position: absolute;
+    top: 90px;
+    left: 24px;
+    font-family: Epilogue;
+    font-weight: Bold;
+    font-size: 28px;
+    opacity: 1;
+    text-align: left;
+  }
+  .heading3{
+    width: 39px;
+    color: rgba(51,51,51,1);
+    position: absolute;
+    top: 30px;
+    left: 24px;
+    font-family: Epilogue;
+    font-weight: Bold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+    justify-content: center;
+  }
+  
+  .lbl#eml{
+    width: 69px;
+    color:black;
+    position: relative;
+    top: 240px;
+    left: 20px;
+    font-family: Epilogue;
+    font-weight: Bold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .lbl#pwd{
+    width: 69px;
+    color: black;
+    position: relative;
+    top: 350px;
+    left: 20px;
+    font-family: Epilogue;
+    font-weight: Bold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+ 
+  input#eml.inp{
+    width: 312px;
+    height: 56px;
+    background: rgba(244,244,244,1);
+    padding: 8px 6px;
+    margin: 4px;
+    opacity: 1;
+    position: absolute;
+    top: 280px;
+    left: 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    overflow: hidden;
+  }
+  
+  input#pwd.inp{
+    width: 312px;
+    height: 56px;
+    background: rgba(244,244,244,1);
+    padding: 8px 6px;
+    margin: 2px;
+    opacity: 1;
+    position: absolute;
+    top: 420px;
+    left: 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    overflow: hidden;
+  }
+  span{
+    width: 172px;
+    color: rgba(51,51,51,1);
+    position: absolute;
+    top: 22px;
+    left: 16px;
+    font-family: Epilogue;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 0.5;
+    text-align: left;
+  }
+   .btn{
+    width: 328px;
+    height: 56px;
+     color: white; 
+    background: rgb(241, 245, 27);
+    opacity: 1;
+    position: relative;
+    top: 500px;
+    left: 40px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.1599999964237213);
+    overflow: hidden;
+    
+    
+  }
+  button:disabled{
+    background-color: gray;
+  }
+  div.error{
+    font-weight: bold;
+    color: red;
+    position: absolute;
+    text-align: center;
+    font-size: 0.87rem;
+  }
+
+  /* a.home{
+   
+   
+    color: red;
+  } */
