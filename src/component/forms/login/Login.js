@@ -14,6 +14,7 @@ const Login = () => {
   const [errorMsg,setErrorMsg]=useState("");
   const [submitButtonDisabled,setSubmitButtohnDisabled]=useState(false);
   const handlesubmission=()=>{
+
     if(!values.email||!values.password){
       setErrorMsg("Fill all fields");
       return;
@@ -25,13 +26,16 @@ const Login = () => {
       setSubmitButtohnDisabled(false);
         // const user=res.user;
         //  await updateProfile(user,{displayName:values.name,});
-        navigate("/");
+        navigate("/home");
     })
     .catch((err)=>{
       setSubmitButtohnDisabled(false);
       setErrorMsg(err.message);
-      // console.log("error-",err.message);
+       console.log("error-",err.message);
     });
+//     if(submitButtonDisabled==true){
+//       <Link className="home" to="/home">Home</Link>
+// }
   };
   return (
     <form action="">
@@ -51,9 +55,15 @@ const Login = () => {
     </div>
     <div className='error'>{errorMsg}</div>
     <button className="btn"
-    // onClick={handlesubmission}
-      disabled={submitButtonDisabled}><Link to="/home">Login</Link></button>
-    
+     onClick={handlesubmission}
+      disabled={submitButtonDisabled}>
+       
+          Login
+         
+          </button>
+
+                
+         
     </form>
   )
 }

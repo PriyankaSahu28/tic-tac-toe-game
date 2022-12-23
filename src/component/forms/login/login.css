@@ -141,8 +141,8 @@ body {
     font-size: 0.87rem;
   }
 
-  /* a.home{
+   a.home{
    
-   
-    color: red;
-  } */
+   position: absolute;
+    color: rgb(0, 76, 255);
+  } 

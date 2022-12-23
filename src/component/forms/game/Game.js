@@ -6,7 +6,9 @@ import { Window, MessageList, MessageInput } from "stream-chat-react";
 // import "./Chat.css";
 function Game({ channel, setChannel }) {
     const [playersJoined, setPlayersJoined] = useState(
-      channel.state.watcher_count === 2
+       channel.state.watcher_count === 2
+      // const { watcher_count } = this.state.channel.state
+
     );
   const [result, setResult] = useState({ winner: "none", state: "none" });
 
